@@ -1,0 +1,40 @@
+#admin{
+    display: flex;
+}
+
+.AHeader{
+    text-align: center;
+    line-height: 50px;
+    background-color:#075985;
+   
+}
+
+.AHeader button{
+    width: 80px;
+    height:20px;
+}
+
+.SideMenu{
+    flex-grow:1;
+    border-right: solid 1px grey;
+}
+#adminBody{
+    flex-grow:6;
+    padding-left: 15px;
+    background-color:#f5f5f4;
+    color: black;
+}
+/***********************************/
+
+.SideMenu ul{
+    list-style: none;
+}
+
+.SideMenu ul li a{
+    text-decoration: none;
+    color: #e4e4e7;
+}
+.user{
+    padding: 1rem;
+}
+/*******************************************/
